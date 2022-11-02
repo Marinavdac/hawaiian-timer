@@ -1,19 +1,24 @@
 import styled from 'styled-components';
 
 const StyledTimer = styled.div`
-  object-fit: cover;
+  align-items: center;
   background-color: #000000aaa;
-
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
+  color: white;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: center;
-  align-items: center;
-  color: white;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
 
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-right: 110rem;
+    margin-top: -20rem;
+  }
   
 `;
 

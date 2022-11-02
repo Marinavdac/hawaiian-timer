@@ -17,8 +17,8 @@ function Timer() {
   return (
     <StyledTimer>
       <div>
-        <p>{present}</p>
-        <p>{clock}</p>
+        <h1>{clock}</h1>
+        <h1>{present}</h1>
       </div>
     </StyledTimer>
   );
